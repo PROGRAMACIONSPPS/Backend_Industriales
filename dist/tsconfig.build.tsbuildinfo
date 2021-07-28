@@ -4266,8 +4266,38 @@
         "signature": "d1b33a7de5786bc3588fde1e29d4ffe3b5e42c060cd672c46ff4b9074ddca0f4",
         "affectsGlobalScope": false
       },
+      "../src/taller/entities/taller.entity.ts": {
+        "version": "04e2c7379cc8db02b364dbd14004223dd39c4d8159950008ea2efb3871bc44bc",
+        "signature": "73188baa6f904337e23f271965090b7debc6c04a1319f5c0684c53b89f73c2ab",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/dto/create-taller.dto.ts": {
+        "version": "90a18858d210dd078cb8928dc91b08441e1102b06c4efec9c2bfcc54e56b1a0d",
+        "signature": "c2418566c90e7128512b28f0ef19792ee27c1cd829b0a96035e14beebd97f72c",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/dto/edit-taller.dto.ts": {
+        "version": "fb9d332451533584dd2f04e98370a195b786fc3146f772fc129e92c7bb5528d5",
+        "signature": "f272aa2194dcadf435a7bbf900de8d690bca60466fcb346d54bf810af92c8181",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/taller.service.ts": {
+        "version": "62bf35a5358bce6ff6dae23f9f955c6a8b0b8fba33bf0a51d5c3f55a1ced753e",
+        "signature": "6e82e478a9eae287d5a6110f29c898c2ff508978f44c0a10ef496b8ae6bc2c2d",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/taller.controller.ts": {
+        "version": "d5776f7761ac852dcd845703a745584bd3b7a901c903657b3a474f535b5a50eb",
+        "signature": "47f48589cb36838e863a786c2a14d1f228beaeeb39d19532c4e25d86ed277d49",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/taller.module.ts": {
+        "version": "f7e290316c188732b35106c6902b696dd6903292511939b770041f33cfde2479",
+        "signature": "d1bf5fa4366ce5d215bf6894919d5b920d3d62537dd57d3b9a8b50756ccac438",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "a90d57fb18beabc5cc7a29feac621e6ee5cb2a993da88b99614f2c9833df63fd",
+        "version": "c6e9924f0ec6ef70e9f8d2650c36e855a408298ca11c5617c93ec12de408ee23",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4669,6 +4699,11 @@
       "../src/sexo/dto/index.ts": {
         "version": "989c236100c5dafc7c69f847cc1d000fab43a74e2487dc94067577a96d1009d9",
         "signature": "bead0329294a088cbc60da8711203a21ab35c697517056c149731edee72927d8",
+        "affectsGlobalScope": false
+      },
+      "../src/taller/dto/index.ts": {
+        "version": "3bda6163b1267b06e451559ee9602c7f29c8a343a374fd126b5e11784c6d15be",
+        "signature": "ef8988b4327b3d8b2ea0e7d8ddbcc2aa316e16a70d4800f669a7d56d3ea933b2",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -8296,6 +8331,7 @@
         "../src/municipio/municipio.module.ts",
         "../src/provincia/provincia.module.ts",
         "../src/sexo/sexo.module.ts",
+        "../src/taller/taller.module.ts",
         "../src/usuario/usuario.module.ts"
       ],
       "../src/app.service.ts": [
@@ -8531,6 +8567,38 @@
         "../src/sexo/dto/create-sexo.dto.ts",
         "../src/sexo/dto/edit-sexo.dto.ts",
         "../src/sexo/entities/sexo.entity.ts"
+      ],
+      "../src/taller/dto/create-taller.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
+      "../src/taller/dto/edit-taller.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts"
+      ],
+      "../src/taller/dto/index.ts": [
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts"
+      ],
+      "../src/taller/entities/taller.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/taller/taller.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/taller/taller.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/taller/entities/taller.entity.ts",
+        "../src/taller/taller.controller.ts",
+        "../src/taller/taller.service.ts"
+      ],
+      "../src/taller/taller.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts",
+        "../src/taller/entities/taller.entity.ts"
       ],
       "../src/usuario/dto/create-user.dto.ts": [
         "../node_modules/class-validator/types/index.d.ts",
@@ -12042,6 +12110,20 @@
         "../src/sexo/dto/edit-sexo.dto.ts",
         "../src/sexo/entities/sexo.entity.ts"
       ],
+      "../src/taller/dto/edit-taller.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts"
+      ],
+      "../src/taller/dto/index.ts": [
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts"
+      ],
+      "../src/taller/taller.service.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts",
+        "../src/taller/entities/taller.entity.ts"
+      ],
       "../src/usuario/dto/create-user.dto.ts": [
         "../src/usuario/enums/index.ts"
       ],
@@ -13005,7 +13087,19 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.controller.ts",
-      "../src/app.module.ts",
+      [
+        "../src/app.module.ts",
+        [
+          {
+            "file": "../src/app.module.ts",
+            "start": 1085,
+            "length": 46,
+            "messageText": "Cannot find module './taller--no-spec/taller--no-spec.controller' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
       "../src/app.service.ts",
       "../src/auth/auth.controller.ts",
       "../src/auth/auth.module.ts",
@@ -13056,6 +13150,13 @@
       "../src/sexo/sexo.controller.ts",
       "../src/sexo/sexo.module.ts",
       "../src/sexo/sexo.service.ts",
+      "../src/taller/dto/create-taller.dto.ts",
+      "../src/taller/dto/edit-taller.dto.ts",
+      "../src/taller/dto/index.ts",
+      "../src/taller/entities/taller.entity.ts",
+      "../src/taller/taller.controller.ts",
+      "../src/taller/taller.module.ts",
+      "../src/taller/taller.service.ts",
       "../src/usuario/dto/create-user.dto.ts",
       "../src/usuario/dto/edit-user.dto.ts",
       "../src/usuario/dto/index.ts",
