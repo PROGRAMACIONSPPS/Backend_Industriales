@@ -4267,7 +4267,7 @@
         "affectsGlobalScope": false
       },
       "../src/taller/entities/taller.entity.ts": {
-        "version": "04e2c7379cc8db02b364dbd14004223dd39c4d8159950008ea2efb3871bc44bc",
+        "version": "85369dc2514bafbb7ce597105ad8fc7ea7b546b5d6fcca5017206bba62a309e3",
         "signature": "73188baa6f904337e23f271965090b7debc6c04a1319f5c0684c53b89f73c2ab",
         "affectsGlobalScope": false
       },
@@ -4287,8 +4287,8 @@
         "affectsGlobalScope": false
       },
       "../src/taller/taller.controller.ts": {
-        "version": "d5776f7761ac852dcd845703a745584bd3b7a901c903657b3a474f535b5a50eb",
-        "signature": "47f48589cb36838e863a786c2a14d1f228beaeeb39d19532c4e25d86ed277d49",
+        "version": "61e2e5674cf3814898a99d2d08b647c1299adfdfef5cf81a7123a278e130e6eb",
+        "signature": "4db180dd29488f64f5f92a17929803e3e2d63335a21ee4f2cf3780bb99c66b52",
         "affectsGlobalScope": false
       },
       "../src/taller/taller.module.ts": {
@@ -4297,7 +4297,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "c6e9924f0ec6ef70e9f8d2650c36e855a408298ca11c5617c93ec12de408ee23",
+        "version": "9dc354f9a347fdf41a84dd57cad2cdc5ece13d86e16eb10a6c6a198fc0de309c",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -8583,7 +8583,10 @@
         "../node_modules/typeorm/index.d.ts"
       ],
       "../src/taller/taller.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts",
+        "../src/taller/taller.service.ts"
       ],
       "../src/taller/taller.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -12118,6 +12121,13 @@
         "../src/taller/dto/create-taller.dto.ts",
         "../src/taller/dto/edit-taller.dto.ts"
       ],
+      "../src/taller/taller.controller.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/taller/dto/create-taller.dto.ts",
+        "../src/taller/dto/edit-taller.dto.ts",
+        "../src/taller/entities/taller.entity.ts",
+        "../src/taller/taller.service.ts"
+      ],
       "../src/taller/taller.service.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../src/taller/dto/create-taller.dto.ts",
@@ -13087,19 +13097,7 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.controller.ts",
-      [
-        "../src/app.module.ts",
-        [
-          {
-            "file": "../src/app.module.ts",
-            "start": 1085,
-            "length": 46,
-            "messageText": "Cannot find module './taller--no-spec/taller--no-spec.controller' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          }
-        ]
-      ],
+      "../src/app.module.ts",
       "../src/app.service.ts",
       "../src/auth/auth.controller.ts",
       "../src/auth/auth.module.ts",

@@ -1,4 +1,5 @@
 import { Column, PrimaryGeneratedColumn, Entity } from 'typeorm';
+
 @Entity("taller")
 export class TallerEntity {
 
