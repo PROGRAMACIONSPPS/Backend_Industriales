@@ -4296,8 +4296,13 @@
         "signature": "d1bf5fa4366ce5d215bf6894919d5b920d3d62537dd57d3b9a8b50756ccac438",
         "affectsGlobalScope": false
       },
+      "../src/detalle/detalle.module.ts": {
+        "version": "c1cca21b459a85e12968e44820734cc275fae08e984663cf397703d8000c3aa7",
+        "signature": "6f322b6ff408e2ad83f2065b8fcbdbdf011f504869af062cd80af949ec192238",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "9dc354f9a347fdf41a84dd57cad2cdc5ece13d86e16eb10a6c6a198fc0de309c",
+        "version": "ac3f42f0bc90ce5f529e68717c2ef0111dfe185ff990c9dbeaacf652b19ab50a",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4669,6 +4674,11 @@
       "../src/destino/dto/index.ts": {
         "version": "64dd6815a45660f28b97f1cf7e4b913e2377d8dfa6c5df4f5ee58b9434b81225",
         "signature": "604d09110dd19e0dfe13e9ee988fcb556704dde589122e2a12f7d47f8132b478",
+        "affectsGlobalScope": false
+      },
+      "../src/detalle/entities/detalle.entity.ts": {
+        "version": "8cb67c8428b906016523e2648ea79d25c4e3a7adae53695ef5331875923b5ed6",
+        "signature": "105b7e79a407cf394b4e6192b3b143e679dacd54fc64c642262ef1c4c49aaf79",
         "affectsGlobalScope": false
       },
       "../src/global-services/file-manager.service.ts": {
@@ -8328,6 +8338,7 @@
         "../src/config/constants.ts",
         "../src/departamento-provincial/departamento-provincial.module.ts",
         "../src/destino/destino.module.ts",
+        "../src/detalle/detalle.module.ts",
         "../src/municipio/municipio.module.ts",
         "../src/provincia/provincia.module.ts",
         "../src/sexo/sexo.module.ts",
@@ -8459,6 +8470,12 @@
         "../src/destino/dto/edit-destino.dto.ts"
       ],
       "../src/destino/entities/destino.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/detalle/detalle.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/detalle/entities/detalle.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
       ],
       "../src/main.ts": [
@@ -13124,6 +13141,8 @@
       "../src/destino/dto/edit-destino.dto.ts",
       "../src/destino/dto/index.ts",
       "../src/destino/entities/destino.entity.ts",
+      "../src/detalle/detalle.module.ts",
+      "../src/detalle/entities/detalle.entity.ts",
       "../src/global-services/file-manager.service.ts",
       "../src/helpers/enumtostring.ts",
       "../src/main.ts",

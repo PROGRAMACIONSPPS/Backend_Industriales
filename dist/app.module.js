@@ -22,6 +22,7 @@ const municipio_module_1 = require("./municipio/municipio.module");
 const ciudad_module_1 = require("./ciudad/ciudad.module");
 const departamento_provincial_module_1 = require("./departamento-provincial/departamento-provincial.module");
 const taller_module_1 = require("./taller/taller.module");
+const detalle_module_1 = require("./detalle/detalle.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -54,6 +55,7 @@ AppModule = __decorate([
             ciudad_module_1.CiudadModule,
             departamento_provincial_module_1.DepartamentoProvincialModule,
             taller_module_1.TallerModule,
+            detalle_module_1.DetalleModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
