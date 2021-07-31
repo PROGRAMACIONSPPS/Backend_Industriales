@@ -17,6 +17,7 @@ import { PassportModule } from '@nestjs/passport';
 import { MulterModule } from '@nestjs/platform-express';
 import { TallerModule } from './taller/taller.module';
 import { DetalleModule } from './detalle/detalle.module';
+import { ProductoModule } from './producto/producto.module';
 
 
 
@@ -52,6 +53,7 @@ import { DetalleModule } from './detalle/detalle.module';
     DepartamentoProvincialModule,
     TallerModule,
     DetalleModule,
+    ProductoModule,
   //  MulterModule
   ],
   controllers: [AppController],

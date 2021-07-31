@@ -1,4 +1,4 @@
 export declare class Sexo {
-    id_sexo: number;
+    id_detalle: number;
     sexo: string;
 }

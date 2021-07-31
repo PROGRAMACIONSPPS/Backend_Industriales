@@ -4,30 +4,38 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Detalle {
 
     @PrimaryGeneratedColumn()
-    id_taller: number;
+    id_detalle: number;
 
-
+    //CLAVE FORANEA A LA TABLA FACTURA
     @Column({
-        type: "int",
-        nullable: false
+    type: "int",
+    nullable: true
     })
-    id_factura: number;
+    factura_id: number;
+
+    //CLAVE FORANEA A LA TABLA PRODUCTO
 
     @Column({
         type: "int",
-        nullable: false
+        nullable: true
     })
-    id_producto: number;
+    producto_id: number;
 
     @Column({
-        type: "int",
-        nullable: false
+        type: "decimal",
+        precision: 8,
+        scale: 2,
+        default: 0,
+        nullable: true
     })
     precio_producto: number;
     
     @Column({
-        type: "int",
-        nullable: false
+        type: "decimal",
+        precision: 8,
+        scale: 4,
+        default:0,
+        nullable: true
     })
     cantidad_producto: number;
 

@@ -14,13 +14,13 @@ const openapi = require("@nestjs/swagger");
 const typeorm_1 = require("typeorm");
 let Sexo = class Sexo {
     static _OPENAPI_METADATA_FACTORY() {
-        return { id_sexo: { required: true, type: () => Number }, sexo: { required: true, type: () => String } };
+        return { id_detalle: { required: true, type: () => Number }, sexo: { required: true, type: () => String } };
     }
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
-], Sexo.prototype, "id_sexo", void 0);
+], Sexo.prototype, "id_detalle", void 0);
 __decorate([
     typeorm_1.Column({
         type: "varchar",

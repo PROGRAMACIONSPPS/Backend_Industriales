@@ -7,7 +7,7 @@ import {Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 export class  Sexo {
 
     @PrimaryGeneratedColumn()
-    id_sexo: number;
+    id_detalle: number;
 
     @Column({
         type: "varchar",

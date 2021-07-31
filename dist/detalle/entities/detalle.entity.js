@@ -14,38 +14,44 @@ const openapi = require("@nestjs/swagger");
 const typeorm_1 = require("typeorm");
 let Detalle = class Detalle {
     static _OPENAPI_METADATA_FACTORY() {
-        return { id_taller: { required: true, type: () => Number }, id_factura: { required: true, type: () => Number }, id_producto: { required: true, type: () => Number }, precio_producto: { required: true, type: () => Number }, cantidad_producto: { required: true, type: () => Number } };
+        return { id_detalle: { required: true, type: () => Number }, factura_id: { required: true, type: () => Number }, producto_id: { required: true, type: () => Number }, precio_producto: { required: true, type: () => Number }, cantidad_producto: { required: true, type: () => Number } };
     }
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
-], Detalle.prototype, "id_taller", void 0);
+], Detalle.prototype, "id_detalle", void 0);
 __decorate([
     typeorm_1.Column({
         type: "int",
-        nullable: false
+        nullable: true
     }),
     __metadata("design:type", Number)
-], Detalle.prototype, "id_factura", void 0);
+], Detalle.prototype, "factura_id", void 0);
 __decorate([
     typeorm_1.Column({
         type: "int",
-        nullable: false
+        nullable: true
     }),
     __metadata("design:type", Number)
-], Detalle.prototype, "id_producto", void 0);
+], Detalle.prototype, "producto_id", void 0);
 __decorate([
     typeorm_1.Column({
-        type: "int",
-        nullable: false
+        type: "decimal",
+        precision: 8,
+        scale: 2,
+        default: 0,
+        nullable: true
     }),
     __metadata("design:type", Number)
 ], Detalle.prototype, "precio_producto", void 0);
 __decorate([
     typeorm_1.Column({
-        type: "int",
-        nullable: false
+        type: "decimal",
+        precision: 8,
+        scale: 4,
+        default: 0,
+        nullable: true
     }),
     __metadata("design:type", Number)
 ], Detalle.prototype, "cantidad_producto", void 0);

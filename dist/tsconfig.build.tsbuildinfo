@@ -4097,8 +4097,8 @@
         "affectsGlobalScope": false
       },
       "../src/sexo/entities/sexo.entity.ts": {
-        "version": "7536809cd18ea2a574c8fa65164616733fe3db76a969af9b344f1a58508ace4d",
-        "signature": "af010b98c66616c97662a0e1887f88b8833ad26d4f3634c905534b85889353ba",
+        "version": "b0f5752ffd389613132d324e3639cff70aca3599170fc22434a74b4d3f4c6880",
+        "signature": "dfc3b28f71003bcdd6fd5a203f4c9c0ab0423658294b64b7b9d2ffae85a3bc62",
         "affectsGlobalScope": false
       },
       "../src/sexo/dto/create-sexo.dto.ts": {
@@ -4296,13 +4296,43 @@
         "signature": "d1bf5fa4366ce5d215bf6894919d5b920d3d62537dd57d3b9a8b50756ccac438",
         "affectsGlobalScope": false
       },
+      "../src/detalle/dto/create-detalle.dto.ts": {
+        "version": "0284ae88bea3907ca48a84d1d3c5e7715ef1ac03176e3ea534e52491fcd93dd0",
+        "signature": "1b1b27531a49cb32056fe936604a3124bc40b1f38f2cf0fe385a5f940ade52f6",
+        "affectsGlobalScope": false
+      },
+      "../src/detalle/dto/edit-detalle.dto.ts": {
+        "version": "e92d24a3dad3ce42974506e2394ca1bf0da3a8109d1900c1c15011f679388581",
+        "signature": "e7799f7189ec0741894faecf299a80d65c85e5160f809533a6625975a83e01e0",
+        "affectsGlobalScope": false
+      },
+      "../src/detalle/entities/detalle.entity.ts": {
+        "version": "6c59fd54c31cb52376bf217cf51ed8ded92c74bbc1e73068913d9797f72c759c",
+        "signature": "d7ed07651d2361a4ff7159f18dd5147e268d3a801370238e675d2fb9cba1472d",
+        "affectsGlobalScope": false
+      },
+      "../src/detalle/detalle.service.ts": {
+        "version": "bdc37d4fd979adcc5e9797bb22ff7b521b0b60904b383561ded6f4fd60d8b3b6",
+        "signature": "95ad241e5c5d7832d1119922b6632458ef51f9b6f2f185c5e283e11921e7d453",
+        "affectsGlobalScope": false
+      },
+      "../src/detalle/detalle.controller.ts": {
+        "version": "896126050e3f7d631d8e2cec1f2a20a6e6e5899b0d6dab14916f50d827f4c07b",
+        "signature": "204b3ab17eb0a0a02d150a48df6a59e59b4de691c6bca2fa5c1b3a0e9d6cd703",
+        "affectsGlobalScope": false
+      },
       "../src/detalle/detalle.module.ts": {
-        "version": "c1cca21b459a85e12968e44820734cc275fae08e984663cf397703d8000c3aa7",
+        "version": "2b99e8a50f21cbc9c667bb3801a9e3d403cc8e7a6067b90cbb631cc6bd7d40eb",
         "signature": "6f322b6ff408e2ad83f2065b8fcbdbdf011f504869af062cd80af949ec192238",
         "affectsGlobalScope": false
       },
+      "../src/producto/producto.module.ts": {
+        "version": "fcf9ba1eb249fe261a0459f83ec65cb7e01505d6b4689fc4160fdd1b1134b978",
+        "signature": "40462390f58031fadf91453f2324c760612ed49cd5907f544ecf728e1ad5b8e9",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "ac3f42f0bc90ce5f529e68717c2ef0111dfe185ff990c9dbeaacf652b19ab50a",
+        "version": "bc6d1b50b0f568031d7ff6a745c5deb4e339290604887938d21a6dd9744426a6",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4676,9 +4706,9 @@
         "signature": "604d09110dd19e0dfe13e9ee988fcb556704dde589122e2a12f7d47f8132b478",
         "affectsGlobalScope": false
       },
-      "../src/detalle/entities/detalle.entity.ts": {
-        "version": "8cb67c8428b906016523e2648ea79d25c4e3a7adae53695ef5331875923b5ed6",
-        "signature": "105b7e79a407cf394b4e6192b3b143e679dacd54fc64c642262ef1c4c49aaf79",
+      "../src/detalle/dto/index.ts": {
+        "version": "5ab63d6b8c159636e9bdc03bcd3dad910ab7a77c961b70665cf75c1bd1a978e0",
+        "signature": "5cdc6bec769dc90fe753b07cc9b5e5ebefee86b2447e041a6af4ebd4c48c8069",
         "affectsGlobalScope": false
       },
       "../src/global-services/file-manager.service.ts": {
@@ -4689,6 +4719,11 @@
       "../src/municipio/dto/index.ts": {
         "version": "2106f64ed5f36db9a99b498272ddb19cce7e15cbc08ede8afe17f0c96f3bd04d",
         "signature": "91db7220d6fdd64bab0f36b0b836ad24b8acd8a7938fcf111e7c89734189c87c",
+        "affectsGlobalScope": false
+      },
+      "../src/producto/entities/producto.entity.ts": {
+        "version": "5647f99d2751929b6ff385eea17b38b2b8fd46ea81dec4f9a24997f2564d3f78",
+        "signature": "3d44f0355f6de70418856f5a103a15e173f6253cd146e581115bb6265902284d",
         "affectsGlobalScope": false
       },
       "../src/provincia/dto/create-provincia.dto.ts": {
@@ -8340,6 +8375,7 @@
         "../src/destino/destino.module.ts",
         "../src/detalle/detalle.module.ts",
         "../src/municipio/municipio.module.ts",
+        "../src/producto/producto.module.ts",
         "../src/provincia/provincia.module.ts",
         "../src/sexo/sexo.module.ts",
         "../src/taller/taller.module.ts",
@@ -8472,8 +8508,37 @@
       "../src/destino/entities/destino.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
       ],
+      "../src/detalle/detalle.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/detalle/detalle.service.ts",
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts"
+      ],
       "../src/detalle/detalle.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/detalle/detalle.controller.ts",
+        "../src/detalle/detalle.service.ts",
+        "../src/detalle/entities/detalle.entity.ts"
+      ],
+      "../src/detalle/detalle.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts",
+        "../src/detalle/entities/detalle.entity.ts"
+      ],
+      "../src/detalle/dto/create-detalle.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
+      "../src/detalle/dto/edit-detalle.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/detalle/dto/create-detalle.dto.ts"
+      ],
+      "../src/detalle/dto/index.ts": [
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts"
       ],
       "../src/detalle/entities/detalle.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
@@ -8517,6 +8582,9 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/municipio/dto/edit-municipio.dto.ts",
         "../src/municipio/entities/municipio.entity.ts"
+      ],
+      "../src/producto/producto.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/provincia/dto/create-provincia.dto.ts": [
         "../node_modules/class-validator/types/index.d.ts"
@@ -12064,6 +12132,27 @@
         "../src/destino/dto/create-destino.dto.ts",
         "../src/destino/dto/edit-destino.dto.ts"
       ],
+      "../src/detalle/detalle.controller.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/detalle/detalle.service.ts",
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts",
+        "../src/detalle/entities/detalle.entity.ts"
+      ],
+      "../src/detalle/detalle.service.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts",
+        "../src/detalle/entities/detalle.entity.ts"
+      ],
+      "../src/detalle/dto/edit-detalle.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/detalle/dto/create-detalle.dto.ts"
+      ],
+      "../src/detalle/dto/index.ts": [
+        "../src/detalle/dto/create-detalle.dto.ts",
+        "../src/detalle/dto/edit-detalle.dto.ts"
+      ],
       "../src/municipio/dto/edit-municipio.dto.ts": [
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/municipio/dto/create-municipio.dto.ts"
@@ -13141,7 +13230,12 @@
       "../src/destino/dto/edit-destino.dto.ts",
       "../src/destino/dto/index.ts",
       "../src/destino/entities/destino.entity.ts",
+      "../src/detalle/detalle.controller.ts",
       "../src/detalle/detalle.module.ts",
+      "../src/detalle/detalle.service.ts",
+      "../src/detalle/dto/create-detalle.dto.ts",
+      "../src/detalle/dto/edit-detalle.dto.ts",
+      "../src/detalle/dto/index.ts",
       "../src/detalle/entities/detalle.entity.ts",
       "../src/global-services/file-manager.service.ts",
       "../src/helpers/enumtostring.ts",
@@ -13153,6 +13247,8 @@
       "../src/municipio/municipio.controller.ts",
       "../src/municipio/municipio.module.ts",
       "../src/municipio/municipio.service.ts",
+      "../src/producto/entities/producto.entity.ts",
+      "../src/producto/producto.module.ts",
       "../src/provincia/dto/create-provincia.dto.ts",
       "../src/provincia/dto/edit-provincia.dto.ts",
       "../src/provincia/dto/index.ts",
