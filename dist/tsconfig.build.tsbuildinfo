@@ -4722,8 +4722,13 @@
         "affectsGlobalScope": false
       },
       "../src/producto/entities/producto.entity.ts": {
+<<<<<<< HEAD
         "version": "579330096bd3e1dee221490f507c93acbbaf762c5a5633dc4202ca8326fbd4f4",
         "signature": "3d44f0355f6de70418856f5a103a15e173f6253cd146e581115bb6265902284d",
+=======
+        "version": "a41ac75df63b4c610be5a8dbfe1f3a43bd70c2e31d10a4f73133951a4dad9d3e",
+        "signature": "bb9c5eabf83f5e52c85fd80404e545e28ae65bccbfe5172717943e56180fffb8",
+>>>>>>> 7ffb61138a55c994fc174d43967f9033f80c4b23
         "affectsGlobalScope": false
       },
       "../src/provincia/dto/create-provincia.dto.ts": {
@@ -8582,6 +8587,9 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/municipio/dto/edit-municipio.dto.ts",
         "../src/municipio/entities/municipio.entity.ts"
+      ],
+      "../src/producto/entities/producto.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
       ],
       "../src/producto/producto.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
