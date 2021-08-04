@@ -4267,7 +4267,7 @@
         "affectsGlobalScope": false
       },
       "../src/taller/entities/taller.entity.ts": {
-        "version": "85369dc2514bafbb7ce597105ad8fc7ea7b546b5d6fcca5017206bba62a309e3",
+        "version": "f02fad3a1fc4e762b8778f249ff560b7693a850bc93baf494bd41edbd5247a1e",
         "signature": "73188baa6f904337e23f271965090b7debc6c04a1319f5c0684c53b89f73c2ab",
         "affectsGlobalScope": false
       },
@@ -4282,17 +4282,17 @@
         "affectsGlobalScope": false
       },
       "../src/taller/taller.service.ts": {
-        "version": "62bf35a5358bce6ff6dae23f9f955c6a8b0b8fba33bf0a51d5c3f55a1ced753e",
+        "version": "d20defee1c8c50bf1b441fd3709ec46a0bea174bf1c52014dfcd46f2fd318203",
         "signature": "6e82e478a9eae287d5a6110f29c898c2ff508978f44c0a10ef496b8ae6bc2c2d",
         "affectsGlobalScope": false
       },
       "../src/taller/taller.controller.ts": {
-        "version": "61e2e5674cf3814898a99d2d08b647c1299adfdfef5cf81a7123a278e130e6eb",
+        "version": "349391a87a6b8dcc69e16cde8e06a4712d6b6f86211f0744e45526471e886bcf",
         "signature": "4db180dd29488f64f5f92a17929803e3e2d63335a21ee4f2cf3780bb99c66b52",
         "affectsGlobalScope": false
       },
       "../src/taller/taller.module.ts": {
-        "version": "f7e290316c188732b35106c6902b696dd6903292511939b770041f33cfde2479",
+        "version": "e56e0626f13ed53ea71ae2cfbf5cf8d338f31071d6de0726e54d5911cb289bc5",
         "signature": "d1bf5fa4366ce5d215bf6894919d5b920d3d62537dd57d3b9a8b50756ccac438",
         "affectsGlobalScope": false
       },
@@ -4307,32 +4307,32 @@
         "affectsGlobalScope": false
       },
       "../src/detalle/entities/detalle.entity.ts": {
-        "version": "6c59fd54c31cb52376bf217cf51ed8ded92c74bbc1e73068913d9797f72c759c",
+        "version": "a9c32603c38d426b344772ace875bdb1608110e47dfedb08539571b22a4ebf81",
         "signature": "d7ed07651d2361a4ff7159f18dd5147e268d3a801370238e675d2fb9cba1472d",
         "affectsGlobalScope": false
       },
       "../src/detalle/detalle.service.ts": {
-        "version": "bdc37d4fd979adcc5e9797bb22ff7b521b0b60904b383561ded6f4fd60d8b3b6",
+        "version": "2dc0e25a6d3467d3a98bec2486fd921008c26fc46888a6aa461f8b33f8532cb8",
         "signature": "95ad241e5c5d7832d1119922b6632458ef51f9b6f2f185c5e283e11921e7d453",
         "affectsGlobalScope": false
       },
       "../src/detalle/detalle.controller.ts": {
-        "version": "896126050e3f7d631d8e2cec1f2a20a6e6e5899b0d6dab14916f50d827f4c07b",
+        "version": "d31542c048a90ba24a77edca033649e5a329706138a59f387c8db41d30d42c7c",
         "signature": "204b3ab17eb0a0a02d150a48df6a59e59b4de691c6bca2fa5c1b3a0e9d6cd703",
         "affectsGlobalScope": false
       },
       "../src/detalle/detalle.module.ts": {
-        "version": "2b99e8a50f21cbc9c667bb3801a9e3d403cc8e7a6067b90cbb631cc6bd7d40eb",
+        "version": "3ff9a084b6591b752514c8a3cbd428ceca77274f3a885b9f1fa1973f63a69fcf",
         "signature": "6f322b6ff408e2ad83f2065b8fcbdbdf011f504869af062cd80af949ec192238",
         "affectsGlobalScope": false
       },
       "../src/producto/producto.module.ts": {
-        "version": "fcf9ba1eb249fe261a0459f83ec65cb7e01505d6b4689fc4160fdd1b1134b978",
+        "version": "022b7776ea9c9ca9649fd0268c125cb0f7f95d88d997ad4c158cdd7c2f9c1be9",
         "signature": "40462390f58031fadf91453f2324c760612ed49cd5907f544ecf728e1ad5b8e9",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "bc6d1b50b0f568031d7ff6a745c5deb4e339290604887938d21a6dd9744426a6",
+        "version": "7d9e99eab85586114d632d249ad9e3fe66f557a6f7bdcc2bcde49ed4f8512c78",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4732,8 +4732,18 @@
         "affectsGlobalScope": false
       },
       "../src/producto/entities/producto.entity.ts": {
+<<<<<<< HEAD
         "version": "3852c745bb4b1549b1cff714b22ebd72da5274d42983cc1f9a2ee0acb039eab4",
         "signature": "a1e0cd35528f2e3419518480ad59b83907803920ae8549aa8acd4ea209a24289",
+=======
+<<<<<<< HEAD
+        "version": "579330096bd3e1dee221490f507c93acbbaf762c5a5633dc4202ca8326fbd4f4",
+        "signature": "3d44f0355f6de70418856f5a103a15e173f6253cd146e581115bb6265902284d",
+=======
+        "version": "a41ac75df63b4c610be5a8dbfe1f3a43bd70c2e31d10a4f73133951a4dad9d3e",
+        "signature": "bb9c5eabf83f5e52c85fd80404e545e28ae65bccbfe5172717943e56180fffb8",
+>>>>>>> 7ffb61138a55c994fc174d43967f9033f80c4b23
+>>>>>>> 6e13ed728416b1b424ac28e3806b74ef8bece051
         "affectsGlobalScope": false
       },
       "../src/provincia/dto/create-provincia.dto.ts": {
