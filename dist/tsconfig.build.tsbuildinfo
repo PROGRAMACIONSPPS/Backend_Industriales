@@ -4732,7 +4732,7 @@
         "affectsGlobalScope": false
       },
       "../src/producto/entities/producto.entity.ts": {
-        "version": "6128fb31114c1483cbb84e38dadbbb1750c2ffd822053509328a7b3c260271a4",
+        "version": "3852c745bb4b1549b1cff714b22ebd72da5274d42983cc1f9a2ee0acb039eab4",
         "signature": "a1e0cd35528f2e3419518480ad59b83907803920ae8549aa8acd4ea209a24289",
         "affectsGlobalScope": false
       },

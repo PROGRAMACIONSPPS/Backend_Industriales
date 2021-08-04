@@ -85,6 +85,8 @@ export class ProductoEntity {}
     })
     tipo_precio_venta: number;
 
+    
+
 
 
 
