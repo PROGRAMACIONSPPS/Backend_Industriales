@@ -73,6 +73,20 @@ export class ProductoEntity {}
     })
     taller_id: number;
 
+    @Column({
+        type: "int",
+        nullable: true
+    })
+    tipo_precio: number;
+
+    @Column({
+        type: "int",
+        nullable: true
+    })
+    tipo_precio_venta: number;
+
+
+
 
 
 

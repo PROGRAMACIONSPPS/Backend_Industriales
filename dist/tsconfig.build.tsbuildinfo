@@ -4721,9 +4721,19 @@
         "signature": "91db7220d6fdd64bab0f36b0b836ad24b8acd8a7938fcf111e7c89734189c87c",
         "affectsGlobalScope": false
       },
+      "../src/producto/dto/create-producto.dto.ts": {
+        "version": "961217c92fa0c2052a203574f604d5451e1a805a8010a909046daaee158cff2c",
+        "signature": "383be3231f2ab83019049d6e9a34fa49e31b825d871d0efe94a91ed2738fdc45",
+        "affectsGlobalScope": false
+      },
+      "../src/producto/dto/edit-producto.dto.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
       "../src/producto/entities/producto.entity.ts": {
-        "version": "a41ac75df63b4c610be5a8dbfe1f3a43bd70c2e31d10a4f73133951a4dad9d3e",
-        "signature": "bb9c5eabf83f5e52c85fd80404e545e28ae65bccbfe5172717943e56180fffb8",
+        "version": "6128fb31114c1483cbb84e38dadbbb1750c2ffd822053509328a7b3c260271a4",
+        "signature": "a1e0cd35528f2e3419518480ad59b83907803920ae8549aa8acd4ea209a24289",
         "affectsGlobalScope": false
       },
       "../src/provincia/dto/create-provincia.dto.ts": {
@@ -8582,6 +8592,9 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/municipio/dto/edit-municipio.dto.ts",
         "../src/municipio/entities/municipio.entity.ts"
+      ],
+      "../src/producto/dto/create-producto.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
       ],
       "../src/producto/entities/producto.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
@@ -13250,6 +13263,8 @@
       "../src/municipio/municipio.controller.ts",
       "../src/municipio/municipio.module.ts",
       "../src/municipio/municipio.service.ts",
+      "../src/producto/dto/create-producto.dto.ts",
+      "../src/producto/dto/edit-producto.dto.ts",
       "../src/producto/entities/producto.entity.ts",
       "../src/producto/producto.module.ts",
       "../src/provincia/dto/create-provincia.dto.ts",

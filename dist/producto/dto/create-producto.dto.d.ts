@@ -1,7 +1,4 @@
-export declare class ProductoEntity {
-}
-export declare class Producto {
-    id_producto: number;
+export declare class CreateDetalleDto {
     codigo_barra: number;
     descripcion: string;
     precio_unidad: number;
