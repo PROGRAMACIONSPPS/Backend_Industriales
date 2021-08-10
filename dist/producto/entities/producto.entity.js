@@ -20,7 +20,7 @@ class ProductoEntity {
 exports.ProductoEntity = ProductoEntity;
 let Producto = class Producto {
     static _OPENAPI_METADATA_FACTORY() {
-        return { id_producto: { required: true, type: () => Number }, codigo_barra: { required: true, type: () => Number }, descripcion: { required: true, type: () => String }, precio_unidad: { required: true, type: () => Number }, precio_kilo: { required: true, type: () => Number }, stock: { required: true, type: () => Number }, stock_minimo: { required: true, type: () => Number }, vencimiento: { required: true, type: () => Date }, taller_id: { required: true, type: () => Number } };
+        return { id_producto: { required: true, type: () => Number }, codigo_barra: { required: true, type: () => Number }, descripcion: { required: true, type: () => String }, precio_unidad: { required: true, type: () => Number }, precio_kilo: { required: true, type: () => Number }, stock: { required: true, type: () => Number }, stock_minimo: { required: true, type: () => Number }, vencimiento: { required: true, type: () => Date }, taller_id: { required: true, type: () => Number }, tipo_precio: { required: true, type: () => Number }, tipo_precio_venta: { required: true, type: () => Number } };
     }
 };
 __decorate([
@@ -97,6 +97,20 @@ __decorate([
     }),
     __metadata("design:type", Number)
 ], Producto.prototype, "taller_id", void 0);
+__decorate([
+    typeorm_1.Column({
+        type: "int",
+        nullable: true
+    }),
+    __metadata("design:type", Number)
+], Producto.prototype, "tipo_precio", void 0);
+__decorate([
+    typeorm_1.Column({
+        type: "int",
+        nullable: true
+    }),
+    __metadata("design:type", Number)
+], Producto.prototype, "tipo_precio_venta", void 0);
 Producto = __decorate([
     typeorm_1.Entity()
 ], Producto);

@@ -3,7 +3,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class ProductoEntity {}
 
 /**
- * Tabla que contiene las opciones de sexo (masculino, femenino,...)
+ * 
  */
  @Entity()
  export class  Producto {
@@ -72,6 +72,22 @@ export class ProductoEntity {}
         nullable: false
     })
     taller_id: number;
+
+    @Column({
+        type: "int",
+        nullable: true
+    })
+    tipo_precio: number;
+
+    @Column({
+        type: "int",
+        nullable: true
+    })
+    tipo_precio_venta: number;
+
+    
+
+
 
 
 
