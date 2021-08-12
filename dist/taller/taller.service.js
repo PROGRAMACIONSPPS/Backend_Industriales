@@ -40,13 +40,13 @@ let TallerService = class TallerService {
     async editOne(id, data) {
         const respuesta = await this.tallerRepository.update(id, data);
         if ((await respuesta).affected == 0)
-            throw new common_1.NotFoundException("No existe el registro de Sexo que intenta modificar");
+            throw new common_1.NotFoundException("No existe el registro de taller que intenta modificar");
         return respuesta;
     }
     async deleteOne(id) {
         const respuesta = await this.tallerRepository.findOne(id);
         if (!respuesta)
-            throw new common_1.NotFoundException("No existe el registro SEXO que desea eliminar");
+            throw new common_1.NotFoundException("No existe el registro TALLER que desea eliminar");
         return await this.tallerRepository.remove(respuesta);
     }
     async createOne(data) {

@@ -4282,7 +4282,7 @@
         "affectsGlobalScope": false
       },
       "../src/taller/taller.service.ts": {
-        "version": "d20defee1c8c50bf1b441fd3709ec46a0bea174bf1c52014dfcd46f2fd318203",
+        "version": "ba9217768f3c4d7fd6401e7127625d1114d5dc2d6d1e9e104b75b8bf531c3f43",
         "signature": "6e82e478a9eae287d5a6110f29c898c2ff508978f44c0a10ef496b8ae6bc2c2d",
         "affectsGlobalScope": false
       },
@@ -4326,8 +4326,28 @@
         "signature": "6f322b6ff408e2ad83f2065b8fcbdbdf011f504869af062cd80af949ec192238",
         "affectsGlobalScope": false
       },
+      "../src/producto/entities/producto.entity.ts": {
+        "version": "65034b8ff95a926bd9122071e44f3d21e2e64132d029436704066b76fb60a6d6",
+        "signature": "a1e0cd35528f2e3419518480ad59b83907803920ae8549aa8acd4ea209a24289",
+        "affectsGlobalScope": false
+      },
+      "../src/producto/dto/create-producto.dto.ts": {
+        "version": "9077421f7e03fb20facc09268dcd57961ac422bb1728a1ae6c148137c71fe4e4",
+        "signature": "f694d630be1f53a14a41be13fc04ca6bffe469b3f76da09e3a770d4498618f11",
+        "affectsGlobalScope": false
+      },
+      "../src/producto/producto.service.ts": {
+        "version": "b1fdf118875d362ffb6cebd9f1b9c2c4435458a16b4ce4f61b2de6e2778d1bb9",
+        "signature": "bfe1d325370c8fe9956d9eb8611eadfa6e53311bee03432002fd7b78c0da74d7",
+        "affectsGlobalScope": false
+      },
+      "../src/producto/producto.controller.ts": {
+        "version": "4faa9875acd553539c4e0a4b0ed7cc125e9b543b228594e1ceccede7705b3701",
+        "signature": "8c5f07631ff633fdfa02b109e2f41029282a1d074a8da5c6fcbfa3de9b0d67d4",
+        "affectsGlobalScope": false
+      },
       "../src/producto/producto.module.ts": {
-        "version": "022b7776ea9c9ca9649fd0268c125cb0f7f95d88d997ad4c158cdd7c2f9c1be9",
+        "version": "1093ad99a91cddcedfd32c0b900fffb2bfef7b00efe79c144397fa1e765471ec",
         "signature": "40462390f58031fadf91453f2324c760612ed49cd5907f544ecf728e1ad5b8e9",
         "affectsGlobalScope": false
       },
@@ -4721,19 +4741,14 @@
         "signature": "91db7220d6fdd64bab0f36b0b836ad24b8acd8a7938fcf111e7c89734189c87c",
         "affectsGlobalScope": false
       },
-      "../src/producto/dto/create-producto.dto.ts": {
-        "version": "9077421f7e03fb20facc09268dcd57961ac422bb1728a1ae6c148137c71fe4e4",
-        "signature": "f694d630be1f53a14a41be13fc04ca6bffe469b3f76da09e3a770d4498618f11",
-        "affectsGlobalScope": false
-      },
       "../src/producto/dto/edit-producto.dto.ts": {
         "version": "26e23f4aeebfdf1d9d46d920aa7d095988b6c76617b5ac5367754e8e9369843e",
         "signature": "bbbf532cd4422793736c7065c8e0066c82293e37475b36daa5d7170bed4a3e2f",
         "affectsGlobalScope": false
       },
-      "../src/producto/entities/producto.entity.ts": {
-        "version": "65034b8ff95a926bd9122071e44f3d21e2e64132d029436704066b76fb60a6d6",
-        "signature": "a1e0cd35528f2e3419518480ad59b83907803920ae8549aa8acd4ea209a24289",
+      "../src/producto/dto/index.ts": {
+        "version": "3ca939e4a0dae6bc8dc9badae5911c56dd99de87e38866b500301728bedbc822",
+        "signature": "c35ba12efdcb6a3ea9ad5689568a15cd86f9897e4ac5dec3bef5294f16bba9a6",
         "affectsGlobalScope": false
       },
       "../src/provincia/dto/create-provincia.dto.ts": {
@@ -8600,11 +8615,32 @@
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts"
       ],
+      "../src/producto/dto/index.ts": [
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts"
+      ],
       "../src/producto/entities/producto.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
       ],
+      "../src/producto/producto.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/producto.service.ts"
+      ],
       "../src/producto/producto.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/producto/entities/producto.entity.ts",
+        "../src/producto/producto.controller.ts",
+        "../src/producto/producto.service.ts",
+        "../src/sexo/sexo.module.ts"
+      ],
+      "../src/producto/producto.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/entities/producto.entity.ts"
       ],
       "../src/provincia/dto/create-provincia.dto.ts": [
         "../node_modules/class-validator/types/index.d.ts"
@@ -12201,6 +12237,22 @@
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts"
       ],
+      "../src/producto/dto/index.ts": [
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts"
+      ],
+      "../src/producto/producto.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/entities/producto.entity.ts",
+        "../src/producto/producto.service.ts"
+      ],
+      "../src/producto/producto.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/entities/producto.entity.ts"
+      ],
       "../src/provincia/dto/edit-provincia.dto.ts": [
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/provincia/dto/create-provincia.dto.ts"
@@ -13273,8 +13325,11 @@
       "../src/municipio/municipio.service.ts",
       "../src/producto/dto/create-producto.dto.ts",
       "../src/producto/dto/edit-producto.dto.ts",
+      "../src/producto/dto/index.ts",
       "../src/producto/entities/producto.entity.ts",
+      "../src/producto/producto.controller.ts",
       "../src/producto/producto.module.ts",
+      "../src/producto/producto.service.ts",
       "../src/provincia/dto/create-provincia.dto.ts",
       "../src/provincia/dto/edit-provincia.dto.ts",
       "../src/provincia/dto/index.ts",

@@ -41,7 +41,7 @@ export class TallerService {
     async editOne(id: number, data: EditTallerDto){
         
             const respuesta = await this.tallerRepository.update(id,data);
-            if((await respuesta).affected == 0) throw new NotFoundException("No existe el registro de Sexo que intenta modificar");
+            if((await respuesta).affected == 0) throw new NotFoundException("No existe el registro de taller que intenta modificar");
             return respuesta;
         
     }
@@ -54,7 +54,7 @@ export class TallerService {
      */
     async deleteOne(id: number){
         const respuesta = await this.tallerRepository.findOne(id);
-        if(!respuesta) throw new NotFoundException("No existe el registro SEXO que desea eliminar");
+        if(!respuesta) throw new NotFoundException("No existe el registro TALLER que desea eliminar");
         return await this.tallerRepository.remove(respuesta);        
     }
 
