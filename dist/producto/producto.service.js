@@ -29,6 +29,35 @@ let ProductoService = class ProductoService {
             return new common_1.BadRequestException(error.error.message);
         }
     }
+    async getOne(id) {
+        try {
+            return await this.productoRepository.findOneOrFail(id);
+        }
+        catch (error) {
+            throw new common_1.BadRequestException(error.message);
+        }
+    }
+    async deleteOne(id) {
+        const respuesta = await this.productoRepository.findOne(id);
+        if (!respuesta)
+            throw new common_1.NotFoundException("No existe el registro PRODUCTO que desea eliminar");
+        return await this.productoRepository.remove(respuesta);
+    }
+    async editOne(id, data) {
+        try {
+            const existe = await this.productoRepository.findOne({ descripcion: data.descripcion });
+            if (existe) {
+                throw new Error('El registro que desea crear/editar ya existe');
+            }
+            const respuesta = await this.productoRepository.update(id, data);
+            if ((await respuesta).affected == 0)
+                throw new common_1.NotFoundException("No existe el registro de Producto que intenta modificar");
+            return respuesta;
+        }
+        catch (error) {
+            throw new common_1.BadRequestException(error);
+        }
+    }
     async createOne(data) {
         const existe = await this.productoRepository.findOne({ descripcion: data.descripcion });
         if (existe)

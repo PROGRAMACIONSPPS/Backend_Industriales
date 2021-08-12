@@ -1,6 +1,7 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, ParseIntPipe, Post, Put } from '@nestjs/common';
 import { ProductoService } from './producto.service';
 import { CreateProductoDto } from './dto/create-producto.dto';
+import { EditProductoDto } from './dto/edit-producto.dto';
 
 @Controller('producto')
 export class ProductoController {
@@ -25,6 +26,13 @@ export class ProductoController {
      * @param id 
      * @returns 
      */
+     @Get(':id')
+     async getOne(
+         @Param('id',ParseIntPipe)
+         id: number
+     ){
+         return await this.productoService.getOne(id);
+     }
     
 
     /**
@@ -40,7 +48,35 @@ export class ProductoController {
         return await this.productoService.createOne(data);
     }
 
-    
+    /**
+     * Petición http que edita un registro según id
+     * @param id 
+     * @param data 
+     * @returns 
+     */
+     @Put(':id')
+     async editOne(
+         @Param('id',ParseIntPipe)
+         id: number,
+         @Body()
+         data: EditProductoDto
+     ){
+         return await this.productoService.editOne(id, data);
+     }
+
+     /**
+     * Petición http que elimina un registro según id
+     * @param id 
+     * @returns 
+     */
+    @Delete(':id')
+    async deleteOne(
+        @Param('id', ParseIntPipe)
+        id: number
+    ){
+        return await this.productoService.deleteOne(id);
+    }
+
     
 
 }

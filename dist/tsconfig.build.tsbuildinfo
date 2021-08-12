@@ -4336,14 +4336,19 @@
         "signature": "f694d630be1f53a14a41be13fc04ca6bffe469b3f76da09e3a770d4498618f11",
         "affectsGlobalScope": false
       },
+      "../src/producto/dto/edit-producto.dto.ts": {
+        "version": "26e23f4aeebfdf1d9d46d920aa7d095988b6c76617b5ac5367754e8e9369843e",
+        "signature": "bbbf532cd4422793736c7065c8e0066c82293e37475b36daa5d7170bed4a3e2f",
+        "affectsGlobalScope": false
+      },
       "../src/producto/producto.service.ts": {
-        "version": "b1fdf118875d362ffb6cebd9f1b9c2c4435458a16b4ce4f61b2de6e2778d1bb9",
-        "signature": "bfe1d325370c8fe9956d9eb8611eadfa6e53311bee03432002fd7b78c0da74d7",
+        "version": "671454d844902d071d3ca3482ad064f20a28c75011bef95665a5c0ecbfa290cc",
+        "signature": "09d4a635e2249c72da5741ea902fb34fdc44120d52ecc406e3d61ae3529fc05b",
         "affectsGlobalScope": false
       },
       "../src/producto/producto.controller.ts": {
-        "version": "4faa9875acd553539c4e0a4b0ed7cc125e9b543b228594e1ceccede7705b3701",
-        "signature": "8c5f07631ff633fdfa02b109e2f41029282a1d074a8da5c6fcbfa3de9b0d67d4",
+        "version": "feb87e8c646f3b3265dd5d2460fdf5719fa5b206eed38302c64e3c67719811c1",
+        "signature": "9f1e5744a0a69e7c83a34d0d6432deeeaf7a6c86eed5dfcf0b968a183ac3bf4e",
         "affectsGlobalScope": false
       },
       "../src/producto/producto.module.ts": {
@@ -4739,11 +4744,6 @@
       "../src/municipio/dto/index.ts": {
         "version": "2106f64ed5f36db9a99b498272ddb19cce7e15cbc08ede8afe17f0c96f3bd04d",
         "signature": "91db7220d6fdd64bab0f36b0b836ad24b8acd8a7938fcf111e7c89734189c87c",
-        "affectsGlobalScope": false
-      },
-      "../src/producto/dto/edit-producto.dto.ts": {
-        "version": "26e23f4aeebfdf1d9d46d920aa7d095988b6c76617b5ac5367754e8e9369843e",
-        "signature": "bbbf532cd4422793736c7065c8e0066c82293e37475b36daa5d7170bed4a3e2f",
         "affectsGlobalScope": false
       },
       "../src/producto/dto/index.ts": {
@@ -8625,6 +8625,7 @@
       "../src/producto/producto.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts",
         "../src/producto/producto.service.ts"
       ],
       "../src/producto/producto.module.ts": [
@@ -8640,6 +8641,7 @@
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts",
         "../src/producto/entities/producto.entity.ts"
       ],
       "../src/provincia/dto/create-provincia.dto.ts": [
@@ -12243,7 +12245,9 @@
       ],
       "../src/producto/producto.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts",
         "../src/producto/entities/producto.entity.ts",
         "../src/producto/producto.service.ts"
       ],
@@ -12251,6 +12255,7 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/producto/dto/create-producto.dto.ts",
+        "../src/producto/dto/edit-producto.dto.ts",
         "../src/producto/entities/producto.entity.ts"
       ],
       "../src/provincia/dto/edit-provincia.dto.ts": [

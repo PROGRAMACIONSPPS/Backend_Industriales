@@ -17,6 +17,7 @@ const openapi = require("@nestjs/swagger");
 const common_1 = require("@nestjs/common");
 const producto_service_1 = require("./producto.service");
 const create_producto_dto_1 = require("./dto/create-producto.dto");
+const edit_producto_dto_1 = require("./dto/edit-producto.dto");
 let ProductoController = class ProductoController {
     constructor(productoService) {
         this.productoService = productoService;
@@ -24,8 +25,17 @@ let ProductoController = class ProductoController {
     async getAll() {
         return await this.productoService.getAll();
     }
+    async getOne(id) {
+        return await this.productoService.getOne(id);
+    }
     async create(data) {
         return await this.productoService.createOne(data);
+    }
+    async editOne(id, data) {
+        return await this.productoService.editOne(id, data);
+    }
+    async deleteOne(id) {
+        return await this.productoService.deleteOne(id);
     }
 };
 __decorate([
@@ -37,7 +47,16 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], ProductoController.prototype, "getAll", null);
 __decorate([
-    openapi.ApiOperation({ description: "Petici\u00F3n http que devuelve un registro seg\u00FAn id\nPetici\u00F3n http que crea un nuevo registro" }),
+    openapi.ApiOperation({ description: "Petici\u00F3n http que devuelve un registro seg\u00FAn id" }),
+    common_1.Get(':id'),
+    openapi.ApiResponse({ status: 200, type: require("./entities/producto.entity").Producto }),
+    __param(0, common_1.Param('id', common_1.ParseIntPipe)),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number]),
+    __metadata("design:returntype", Promise)
+], ProductoController.prototype, "getOne", null);
+__decorate([
+    openapi.ApiOperation({ description: "Petici\u00F3n http que crea un nuevo registro" }),
     common_1.Post(),
     openapi.ApiResponse({ status: 201, type: require("./entities/producto.entity").Producto }),
     __param(0, common_1.Body()),
@@ -45,6 +64,25 @@ __decorate([
     __metadata("design:paramtypes", [create_producto_dto_1.CreateProductoDto]),
     __metadata("design:returntype", Promise)
 ], ProductoController.prototype, "create", null);
+__decorate([
+    openapi.ApiOperation({ description: "Petici\u00F3n http que edita un registro seg\u00FAn id" }),
+    common_1.Put(':id'),
+    openapi.ApiResponse({ status: 200 }),
+    __param(0, common_1.Param('id', common_1.ParseIntPipe)),
+    __param(1, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number, edit_producto_dto_1.EditProductoDto]),
+    __metadata("design:returntype", Promise)
+], ProductoController.prototype, "editOne", null);
+__decorate([
+    openapi.ApiOperation({ description: "Petici\u00F3n http que elimina un registro seg\u00FAn id" }),
+    common_1.Delete(':id'),
+    openapi.ApiResponse({ status: 200, type: require("./entities/producto.entity").Producto }),
+    __param(0, common_1.Param('id', common_1.ParseIntPipe)),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number]),
+    __metadata("design:returntype", Promise)
+], ProductoController.prototype, "deleteOne", null);
 ProductoController = __decorate([
     common_1.Controller('producto'),
     __metadata("design:paramtypes", [producto_service_1.ProductoService])
