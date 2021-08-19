@@ -25,6 +25,7 @@ export class ProductoService {
      */
     async getAll(){
         try {
+            //return await this.productoRepository.find();
             return await this.productoRepository.find();
 
         } catch (error) {

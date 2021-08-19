@@ -24,6 +24,7 @@ const departamento_provincial_module_1 = require("./departamento-provincial/depa
 const taller_module_1 = require("./taller/taller.module");
 const detalle_module_1 = require("./detalle/detalle.module");
 const producto_module_1 = require("./producto/producto.module");
+const factura_module_1 = require("./factura/factura.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -58,6 +59,7 @@ AppModule = __decorate([
             taller_module_1.TallerModule,
             detalle_module_1.DetalleModule,
             producto_module_1.ProductoModule,
+            factura_module_1.FacturaModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

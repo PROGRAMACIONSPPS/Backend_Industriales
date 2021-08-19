@@ -4342,7 +4342,7 @@
         "affectsGlobalScope": false
       },
       "../src/producto/producto.service.ts": {
-        "version": "671454d844902d071d3ca3482ad064f20a28c75011bef95665a5c0ecbfa290cc",
+        "version": "967ff498c3d090918f48197962f6cc5a85d0999b51928925c7427aea2905148b",
         "signature": "09d4a635e2249c72da5741ea902fb34fdc44120d52ecc406e3d61ae3529fc05b",
         "affectsGlobalScope": false
       },
@@ -4356,8 +4356,38 @@
         "signature": "40462390f58031fadf91453f2324c760612ed49cd5907f544ecf728e1ad5b8e9",
         "affectsGlobalScope": false
       },
+      "../src/factura/entities/factura.entity.ts": {
+        "version": "b8753a93e0c3a3c456aa9e29a8f6ab1c1608b76476e1da7e81525c8269fea4a8",
+        "signature": "eb7fc906b1bad5484cfc1cad6598f97e8ce46f5f953c9a43756a7344a77c8d53",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/dto/create-factura.dto.ts": {
+        "version": "4904389f97f41aa68e54fd20315a76d7bc9e4e319873ba977b01416e7dd15e42",
+        "signature": "3987561b0819c0fd96297ea8d6f4418bcebc7203f04db19957b57aca20c1df74",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/dto/edit-factura.dto.ts": {
+        "version": "0ad790005c2d7da5f950951cf91c6407e8f22248ecfa672312a479459e5cd17f",
+        "signature": "c445ad5ef94056762567d4e5a7778a4360e2123e7233db09c8aee4ad6f952735",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/factura.service.ts": {
+        "version": "6f2012c4df64cdcfa4453c365fbb98e55719e3d7c7b60d97ba632b3f84a42c63",
+        "signature": "d92aaba07d12c0d59688057203009ed3cacb216088ffaf353e403c3c8d046a10",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/factura.controller.ts": {
+        "version": "85bb5faaf63c2887dc4015ff3a38da71502714603c8a6e5651e67c96034b04df",
+        "signature": "069632ed92d7a5d02fb65f2be674e9416d2a9a32112efefaeb6bff5f89a36ba1",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/factura.module.ts": {
+        "version": "ea12c0db027c9f7d1f678251286ce0962fa4593c2bc7c93e9f5fa41c8d990a15",
+        "signature": "205d8471c8ce78ec4e5f7d3d3ccffb0ca8e57c6eab45b0fc0b76d27cf0be6f32",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "7d9e99eab85586114d632d249ad9e3fe66f557a6f7bdcc2bcde49ed4f8512c78",
+        "version": "7518f361ce1881825ce858d04fa1b6695a6d1894fa3be49436ad93bbc1934f59",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4734,6 +4764,11 @@
       "../src/detalle/dto/index.ts": {
         "version": "5ab63d6b8c159636e9bdc03bcd3dad910ab7a77c961b70665cf75c1bd1a978e0",
         "signature": "5cdc6bec769dc90fe753b07cc9b5e5ebefee86b2447e041a6af4ebd4c48c8069",
+        "affectsGlobalScope": false
+      },
+      "../src/factura/dto/index.ts": {
+        "version": "be14f5a87f14aed90f92ca4805441d4878c49274a60f2f8b3e4c001e4d4e31d0",
+        "signature": "fdc746e4e1c352b5e3ef95d644373371bc1ecaf3738e69a57ec6eab08a727309",
         "affectsGlobalScope": false
       },
       "../src/global-services/file-manager.service.ts": {
@@ -8399,6 +8434,7 @@
         "../src/departamento-provincial/departamento-provincial.module.ts",
         "../src/destino/destino.module.ts",
         "../src/detalle/detalle.module.ts",
+        "../src/factura/factura.module.ts",
         "../src/municipio/municipio.module.ts",
         "../src/producto/producto.module.ts",
         "../src/provincia/provincia.module.ts",
@@ -8567,6 +8603,41 @@
       ],
       "../src/detalle/entities/detalle.entity.ts": [
         "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/factura/dto/create-factura.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
+      "../src/factura/dto/edit-factura.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts"
+      ],
+      "../src/factura/dto/index.ts": [
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/dto/edit-factura.dto.ts"
+      ],
+      "../src/factura/entities/factura.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/factura/factura.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/factura.service.ts",
+        "../src/producto/dto/create-producto.dto.ts"
+      ],
+      "../src/factura/factura.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/factura/entities/factura.entity.ts",
+        "../src/factura/factura.controller.ts",
+        "../src/factura/factura.service.ts"
+      ],
+      "../src/factura/factura.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/dto/edit-factura.dto.ts",
+        "../src/factura/entities/factura.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -12211,6 +12282,26 @@
         "../src/detalle/dto/create-detalle.dto.ts",
         "../src/detalle/dto/edit-detalle.dto.ts"
       ],
+      "../src/factura/dto/edit-factura.dto.ts": [
+        "../node_modules/@nestjs/mapped-types/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts"
+      ],
+      "../src/factura/dto/index.ts": [
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/dto/edit-factura.dto.ts"
+      ],
+      "../src/factura/factura.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/entities/factura.entity.ts",
+        "../src/factura/factura.service.ts"
+      ],
+      "../src/factura/factura.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/factura/dto/create-factura.dto.ts",
+        "../src/factura/entities/factura.entity.ts"
+      ],
       "../src/municipio/dto/edit-municipio.dto.ts": [
         "../node_modules/@nestjs/mapped-types/index.d.ts",
         "../src/municipio/dto/create-municipio.dto.ts"
@@ -13318,6 +13409,13 @@
       "../src/detalle/dto/edit-detalle.dto.ts",
       "../src/detalle/dto/index.ts",
       "../src/detalle/entities/detalle.entity.ts",
+      "../src/factura/dto/create-factura.dto.ts",
+      "../src/factura/dto/edit-factura.dto.ts",
+      "../src/factura/dto/index.ts",
+      "../src/factura/entities/factura.entity.ts",
+      "../src/factura/factura.controller.ts",
+      "../src/factura/factura.module.ts",
+      "../src/factura/factura.service.ts",
       "../src/global-services/file-manager.service.ts",
       "../src/helpers/enumtostring.ts",
       "../src/main.ts",

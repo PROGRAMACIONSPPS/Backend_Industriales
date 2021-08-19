@@ -18,6 +18,7 @@ import { MulterModule } from '@nestjs/platform-express';
 import { TallerModule } from './taller/taller.module';
 import { DetalleModule } from './detalle/detalle.module';
 import { ProductoModule } from './producto/producto.module';
+import { FacturaModule } from './factura/factura.module';
 
 
 
@@ -54,6 +55,7 @@ import { ProductoModule } from './producto/producto.module';
     TallerModule,
     DetalleModule,
     ProductoModule,
+    FacturaModule,
   //  MulterModule
   ],
   controllers: [AppController],
